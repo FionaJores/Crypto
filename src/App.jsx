@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className='app'>
         <Navbar/>
-        <Routes>
+        <Routes basename='/Crypto_Place'>
           <Route path='/' element={<Home/>}/>
           <Route path='/coin/:coinId' element={<Coin/>}/>
         </Routes>
